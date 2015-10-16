@@ -1,3 +1,10 @@
+'''
+upload data to database
+load data local infile 'uniq.csv' into table tblUniq fields terminated by ','
+  enclosed by '"'
+  lines terminated by '\n'
+    (uniqName, uniqCity, uniqComments)*/
+'''
 import csv
 import os
 infile = input("Enter the input file name : ")
